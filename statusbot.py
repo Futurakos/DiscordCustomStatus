@@ -1,7 +1,6 @@
 from colorama import Fore, init, Style
 import requests
 import random
-import ctypes
 import time
 import os
 
