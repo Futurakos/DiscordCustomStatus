@@ -7,3 +7,6 @@ With this simple program you put in your token, you write some different sentenc
 
 # Example for Use
 One use for this is for when you wanna let your friends you are sleeping, you use crontab (https://en.wikipedia.org/wiki/Cron) and you make it open in a specific time you are sleeping and it sets your status to: Sleeping.
+
+# How it works
+It sends a request to https://discordapp.com/api/v6/users/@me/settings with special parameters such as custom_status:"The text you put in the code in here"
